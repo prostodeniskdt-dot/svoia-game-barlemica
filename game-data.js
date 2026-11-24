@@ -6,45 +6,18 @@ window.BARLEMICA_GAME = {
   "rounds": [
     {
       "number": 1,
-      "title": "РАЗОГРЕВ",
-      "values": [
-        100,
-        200,
-        300,
-        400,
-        500
-      ]
+      "title": "РАЗОГРЕВ"
     },
     {
       "number": 2,
-      "title": "ПОП-КУЛЬТУРА",
-      "values": [
-        200,
-        400,
-        600,
-        800,
-        1000
-      ]
+      "title": "ПОП-КУЛЬТУРА"
     },
     {
       "number": 3,
-      "title": "ФИНАЛЬНЫЙ ЗАМЕС",
-      "values": [
-        300,
-        600,
-        900,
-        1200,
-        1500
-      ]
+      "title": "ФИНАЛЬНЫЙ ЗАМЕС"
     }
   ],
   "categories": [
-    {
-      "id": "ART",
-      "round": 1,
-      "title": "Искусство",
-      "icon": "palette"
-    },
     {
       "id": "MIX",
       "round": 1,
@@ -64,12 +37,6 @@ window.BARLEMICA_GAME = {
       "icon": "coffee"
     },
     {
-      "id": "FOOD",
-      "round": 1,
-      "title": "Гастрономия",
-      "icon": "utensils"
-    },
-    {
       "id": "EMOJI",
       "round": 1,
       "title": "Бар по эмодзи",
@@ -84,7 +51,7 @@ window.BARLEMICA_GAME = {
     {
       "id": "MOVIE",
       "round": 2,
-      "title": "Кинематограф",
+      "title": "Смешай по-братски",
       "icon": "clapperboard"
     },
     {
@@ -100,24 +67,6 @@ window.BARLEMICA_GAME = {
       "icon": "sparkles"
     },
     {
-      "id": "ANIME",
-      "round": 2,
-      "title": "Аниме",
-      "icon": "swords"
-    },
-    {
-      "id": "HOLIDAY",
-      "round": 2,
-      "title": "Праздники",
-      "icon": "calendar"
-    },
-    {
-      "id": "SIX",
-      "round": 3,
-      "title": "Сикс севен",
-      "icon": "hash"
-    },
-    {
       "id": "TRANS",
       "round": 3,
       "title": "Переводчик вышел покурить",
@@ -130,16 +79,10 @@ window.BARLEMICA_GAME = {
       "icon": "scale"
     },
     {
-      "id": "DETECT",
+      "id": "ANIME",
       "round": 3,
-      "title": "Барная криминалистика",
-      "icon": "search"
-    },
-    {
-      "id": "AI",
-      "round": 3,
-      "title": "ИИ или ой?",
-      "icon": "brain-circuit"
+      "title": "Аниме",
+      "icon": "swords"
     },
     {
       "id": "FAKE",
@@ -149,126 +92,6 @@ window.BARLEMICA_GAME = {
     }
   ],
   "questions": [
-    {
-      "id": "R1-ART-1",
-      "round": 1,
-      "category_id": "ART",
-      "category": "Искусство",
-      "position": 1,
-      "points": 100,
-      "question": "На этой картине Шишкина и Савицкого сколько медведей?",
-      "answer": "Четыре",
-      "accepted_answers": [
-        "4",
-        "четыре медведя"
-      ],
-      "host_note": "Полностью показать «Утро в сосновом лесу».",
-      "media_type": "artwork",
-      "media_text": null,
-      "media_asset": "art/shishkin_morning.jpg",
-      "media_source": "https://commons.wikimedia.org/wiki/File:Utro_v_sosnovom_lesu.jpg",
-      "fact_source": "https://commons.wikimedia.org/wiki/File:Utro_v_sosnovom_lesu.jpg",
-      "origin": "исходник",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
-      "id": "R1-ART-2",
-      "round": 1,
-      "category_id": "ART",
-      "category": "Искусство",
-      "position": 2,
-      "points": 200,
-      "question": "На портрете Серова девочка сидит за столом с какими фруктами?",
-      "answer": "Персики",
-      "accepted_answers": [
-        "персик",
-        "персиками"
-      ],
-      "host_note": "Показать картину без названия.",
-      "media_type": "artwork",
-      "media_text": null,
-      "media_asset": "art/serov_peaches.jpg",
-      "media_source": "https://commons.wikimedia.org/wiki/File:Serov_devochka_s_persikami.jpg",
-      "fact_source": "https://commons.wikimedia.org/wiki/File:Serov_devochka_s_persikami.jpg",
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
-      "id": "R1-ART-3",
-      "round": 1,
-      "category_id": "ART",
-      "category": "Искусство",
-      "position": 3,
-      "points": 300,
-      "question": "Что тащат дети на картине Перова «Тройка» — и что внутри?",
-      "answer": "Бочку с водой",
-      "accepted_answers": [
-        "бочка с водой",
-        "воду в бочке"
-      ],
-      "host_note": "В оригинале правильный ответ не просто «бочка», а бочка с водой.",
-      "media_type": "artwork",
-      "media_text": null,
-      "media_asset": "art/perov_troika.jpg",
-      "media_source": "https://my.tretyakov.ru/app/masterpiece/8400",
-      "fact_source": "https://my.tretyakov.ru/app/masterpiece/8400",
-      "origin": "исходник уточнён",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
-      "id": "R1-ART-4",
-      "round": 1,
-      "category_id": "ART",
-      "category": "Искусство",
-      "position": 4,
-      "points": 400,
-      "question": "Этот натюрморт называется «Корзина с фруктами». Назовите художника.",
-      "answer": "Караваджо",
-      "accepted_answers": [
-        "Микеланджело Меризи да Караваджо",
-        "Caravaggio"
-      ],
-      "host_note": "Крупно показать натюрморт, скрыть имя автора.",
-      "media_type": "artwork",
-      "media_text": null,
-      "media_asset": "art/caravaggio_fruit.jpg",
-      "media_source": "https://commons.wikimedia.org/wiki/File:Caravaggio_Basket_of_Fruit.jpg",
-      "fact_source": "https://commons.wikimedia.org/wiki/File:Caravaggio_Basket_of_Fruit.jpg",
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 30,
-      "status": "ready"
-    },
-    {
-      "id": "R1-ART-5",
-      "round": 1,
-      "category_id": "ART",
-      "category": "Искусство",
-      "position": 5,
-      "points": 500,
-      "question": "Перед вами портрет, составленный из винограда, грибов и плодов. Кто его написал?",
-      "answer": "Джузеппе Арчимбольдо",
-      "accepted_answers": [
-        "Арчимбольдо",
-        "Giuseppe Arcimboldo"
-      ],
-      "host_note": "Картина «Осень», 1573.",
-      "media_type": "artwork",
-      "media_text": null,
-      "media_asset": "art/arcimboldo_autumn.jpg",
-      "media_source": "https://commons.wikimedia.org/wiki/Category:Autumn_(Arcimboldo)",
-      "fact_source": "https://commons.wikimedia.org/wiki/Category:Autumn_(Arcimboldo)",
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 30,
-      "status": "ready"
-    },
     {
       "id": "R1-MIX-1",
       "round": 1,
@@ -340,35 +163,11 @@ window.BARLEMICA_GAME = {
       "status": "ready"
     },
     {
-      "id": "R1-MIX-4",
-      "round": 1,
-      "category_id": "MIX",
-      "category": "Смешай по-братски",
-      "position": 4,
-      "points": 400,
-      "question": "По одной известной, но недоказанной версии, с какой английской королевой связывают название Bloody Mary?",
-      "answer": "Мария I Тюдор",
-      "accepted_answers": [
-        "Мария Тюдор",
-        "Mary I"
-      ],
-      "host_note": "Не говорить «точно названа» — история имени спорная.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": "https://www.spiritsanddistilling.com/dictionary/acref-9780199311132-e-258",
-      "origin": "исходник уточнён",
-      "special": null,
-      "timer_seconds": 30,
-      "status": "ready"
-    },
-    {
       "id": "R1-MIX-5",
       "round": 1,
       "category_id": "MIX",
       "category": "Смешай по-братски",
-      "position": 5,
+      "position": 4,
       "points": 500,
       "question": "Название какого коктейля отсылает к французской 75-миллиметровой пушке Первой мировой войны?",
       "answer": "French 75",
@@ -383,7 +182,7 @@ window.BARLEMICA_GAME = {
       "media_source": null,
       "fact_source": "https://iba-world.com/cocktail/french-75/",
       "origin": "новый",
-      "special": "auction",
+      "special": null,
       "timer_seconds": 30,
       "status": "ready"
     },
@@ -458,34 +257,11 @@ window.BARLEMICA_GAME = {
       "status": "ready"
     },
     {
-      "id": "R1-WINE-4",
-      "round": 1,
-      "category_id": "WINE",
-      "category": "Молоко любимой женщины",
-      "position": 4,
-      "points": 400,
-      "question": "Как называют винную бутылку объёмом полтора литра?",
-      "answer": "Магнум",
-      "accepted_answers": [
-        "magnum"
-      ],
-      "host_note": "1,5 л = две стандартные бутылки 0,75 л.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 30,
-      "status": "ready"
-    },
-    {
       "id": "R1-WINE-5",
       "round": 1,
       "category_id": "WINE",
       "category": "Молоко любимой женщины",
-      "position": 5,
+      "position": 4,
       "points": 500,
       "question": "Как называется удаление собранного дрожжевого осадка из горлышка бутылки после ремюажа?",
       "answer": "Дегоржаж",
@@ -600,174 +376,11 @@ window.BARLEMICA_GAME = {
       "status": "ready"
     },
     {
-      "id": "R1-COFFEE-5",
-      "round": 1,
-      "category_id": "COFFEE",
-      "category": "В семье не без бариста",
-      "position": 5,
-      "points": 500,
-      "question": "Какие три компонента взбивают паром вместе при приготовлении классического рафа?",
-      "answer": "Эспрессо, сливки и сахар",
-      "accepted_answers": [
-        "кофе сливки сахар",
-        "эспрессо сливки ванильный сахар"
-      ],
-      "host_note": "Вариант сахара может включать ванильный.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": "https://sprudge.com/raf-coffee-russia-91027.html",
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 30,
-      "status": "ready"
-    },
-    {
-      "id": "R1-FOOD-1",
-      "round": 1,
-      "category_id": "FOOD",
-      "category": "Гастрономия",
-      "position": 1,
-      "points": 100,
-      "question": "Что растёт на «дынном дереве»?",
-      "answer": "Папайя",
-      "accepted_answers": [
-        "папайя"
-      ],
-      "host_note": "Можно показать силуэт папайи после ответа.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "исходник",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
-      "id": "R1-FOOD-2",
-      "round": 1,
-      "category_id": "FOOD",
-      "category": "Гастрономия",
-      "position": 2,
-      "points": 200,
-      "question": "Из какой страны родом сыр гауда?",
-      "answer": "Нидерланды",
-      "accepted_answers": [
-        "Голландия",
-        "Нидерландов"
-      ],
-      "host_note": "Гауда — город в Нидерландах.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "исходник",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
-      "id": "R1-FOOD-3",
-      "round": 1,
-      "category_id": "FOOD",
-      "category": "Гастрономия",
-      "position": 3,
-      "points": 300,
-      "question": "Французское слово fourchette дало название фуршету. Как оно переводится?",
-      "answer": "Вилка",
-      "accepted_answers": [
-        "вилка"
-      ],
-      "host_note": "Не раскрывать подсказку «зубцы» заранее.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "исходник",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
-      "id": "R1-FOOD-4",
-      "round": 1,
-      "category_id": "FOOD",
-      "category": "Гастрономия",
-      "position": 4,
-      "points": 400,
-      "question": "В какой стране придумали гавайскую пиццу с ананасами?",
-      "answer": "Канада",
-      "accepted_answers": [
-        "в Канаде"
-      ],
-      "host_note": "Не Гавайи и не Италия.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "исходник",
-      "special": null,
-      "timer_seconds": 30,
-      "status": "ready"
-    },
-    {
-      "id": "R1-FOOD-5",
-      "round": 1,
-      "category_id": "FOOD",
-      "category": "Гастрономия",
-      "position": 5,
-      "points": 500,
-      "question": "Какое животное спрятано в горе на узнаваемой упаковке Toblerone?",
-      "answer": "Медведь",
-      "accepted_answers": [
-        "бурый медведь"
-      ],
-      "host_note": "Для сложного уровня показать гору 5 секунд, затем закрыть.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": "https://www.mondelezinternational.com/our-brands/toblerone/",
-      "origin": "исходник",
-      "special": null,
-      "timer_seconds": 30,
-      "status": "ready"
-    },
-    {
-      "id": "R1-EMOJI-1",
-      "round": 1,
-      "category_id": "EMOJI",
-      "category": "Бар по эмодзи",
-      "position": 1,
-      "points": 100,
-      "question": "Расшифруйте коктейль по трём подсказкам.",
-      "answer": "Mojito",
-      "accepted_answers": [
-        "Мохито"
-      ],
-      "host_note": "На экране — только пиктограммы, без слов.",
-      "media_type": "emoji",
-      "media_text": "🇨🇺 🌿 🍋 🥤",
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
       "id": "R1-EMOJI-2",
       "round": 1,
       "category_id": "EMOJI",
       "category": "Бар по эмодзи",
-      "position": 2,
+      "position": 1,
       "points": 200,
       "question": "Какой классический коктейль спрятан в ребусе?",
       "answer": "Margarita",
@@ -790,7 +403,7 @@ window.BARLEMICA_GAME = {
       "round": 1,
       "category_id": "EMOJI",
       "category": "Бар по эмодзи",
-      "position": 3,
+      "position": 2,
       "points": 300,
       "question": "Какой коктейль зашифрован?",
       "answer": "Espresso Martini",
@@ -813,7 +426,7 @@ window.BARLEMICA_GAME = {
       "round": 1,
       "category_id": "EMOJI",
       "category": "Бар по эмодзи",
-      "position": 4,
+      "position": 3,
       "points": 400,
       "question": "Какой коктейль спрятан в этом наборе?",
       "answer": "Old Fashioned",
@@ -837,7 +450,7 @@ window.BARLEMICA_GAME = {
       "round": 1,
       "category_id": "EMOJI",
       "category": "Бар по эмодзи",
-      "position": 5,
+      "position": 4,
       "points": 500,
       "question": "Расшифруйте название тики-коктейля по ребусу.",
       "answer": "Zombie",
@@ -903,34 +516,11 @@ window.BARLEMICA_GAME = {
       "status": "ready"
     },
     {
-      "id": "R2-SPIRIT-3",
-      "round": 2,
-      "category_id": "SPIRIT",
-      "category": "C₂H₅OH",
-      "position": 3,
-      "points": 600,
-      "question": "Что кот Бегемот налил Маргарите после бала вместо водки?",
-      "answer": "Чистый спирт",
-      "accepted_answers": [
-        "спирт"
-      ],
-      "host_note": "Ответ из романа «Мастер и Маргарита».",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": "https://ru.ruwiki.ru/wiki/Кот_Бегемот",
-      "origin": "исходник",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
       "id": "R2-SPIRIT-4",
       "round": 2,
       "category_id": "SPIRIT",
       "category": "C₂H₅OH",
-      "position": 4,
+      "position": 3,
       "points": 800,
       "question": "Что означает ABV на этикетке алкогольного напитка?",
       "answer": "Доля алкоголя по объёму",
@@ -954,7 +544,7 @@ window.BARLEMICA_GAME = {
       "round": 2,
       "category_id": "SPIRIT",
       "category": "C₂H₅OH",
-      "position": 5,
+      "position": 4,
       "points": 1000,
       "question": "Из какого сырья делают писко: из агавы, зерна или винограда?",
       "answer": "Из винограда",
@@ -973,35 +563,33 @@ window.BARLEMICA_GAME = {
       "status": "ready"
     },
     {
-      "id": "R2-MOVIE-1",
+      "id": "R2-MOVIE-5",
       "round": 2,
       "category_id": "MOVIE",
-      "category": "Кинематограф",
+      "category": "Смешай по-братски",
       "position": 1,
-      "points": 200,
-      "question": "Кубинские сэндвичи, фудтрак и шеф, ушедший из ресторана после ссоры с критиком. Что за фильм?",
-      "answer": "Повар на колёсах",
+      "points": 1000,
+      "question": "Загадка кино: вечеринки на Лонг-Айленде, башня бокалов и зелёный огонёк через залив. Фильм?",
+      "answer": "Великий Гэтсби",
       "accepted_answers": [
-        "Chef",
-        "Шеф",
-        "Повар на колесах"
+        "The Great Gatsby"
       ],
-      "host_note": "Фильм Chef (2014); пример гастрономического кино.",
+      "host_note": "Ответ по набору культурных признаков.",
       "media_type": "emoji",
-      "media_text": "🚚 🥪 👨‍🍳 📱",
+      "media_text": "🥂 🎩 🟢 🌊",
       "media_asset": null,
       "media_source": null,
       "fact_source": null,
       "origin": "новый",
       "special": null,
-      "timer_seconds": 20,
+      "timer_seconds": 30,
       "status": "ready"
     },
     {
       "id": "R2-MOVIE-2",
       "round": 2,
       "category_id": "MOVIE",
-      "category": "Кинематограф",
+      "category": "Смешай по-братски",
       "position": 2,
       "points": 400,
       "question": "Угадайте фильм по реквизиту: загадочный чемодан, танец босиком и бургер Big Kahuna.",
@@ -1021,34 +609,11 @@ window.BARLEMICA_GAME = {
       "status": "ready"
     },
     {
-      "id": "R2-MOVIE-3",
-      "round": 2,
-      "category_id": "MOVIE",
-      "category": "Кинематограф",
-      "position": 3,
-      "points": 600,
-      "question": "В каком фильме девушки превращают барную стойку в танцпол, а новая сотрудница мечтает стать певицей?",
-      "answer": "Бар «Гадкий койот»",
-      "accepted_answers": [
-        "Coyote Ugly"
-      ],
-      "host_note": "На экране силуэты барной стойки и сапог.",
-      "media_type": "emoji",
-      "media_text": "🍹 👢 🎤 🕺",
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
       "id": "R2-MOVIE-4",
       "round": 2,
       "category_id": "MOVIE",
-      "category": "Кинематограф",
-      "position": 4,
+      "category": "Смешай по-братски",
+      "position": 3,
       "points": 800,
       "question": "В каком фильме Джеймс Бонд заказывает вариацию Martini «Веспер»?",
       "answer": "Казино «Рояль»",
@@ -1068,26 +633,26 @@ window.BARLEMICA_GAME = {
       "status": "ready"
     },
     {
-      "id": "R2-MOVIE-5",
+      "id": "R2-MOVIE-3",
       "round": 2,
       "category_id": "MOVIE",
-      "category": "Кинематограф",
-      "position": 5,
-      "points": 1000,
-      "question": "Загадка кино: вечеринки на Лонг-Айленде, башня бокалов и зелёный огонёк через залив. Фильм?",
-      "answer": "Великий Гэтсби",
+      "category": "Смешай по-братски",
+      "position": 4,
+      "points": 600,
+      "question": "В каком фильме девушки превращают барную стойку в танцпол, а новая сотрудница мечтает стать певицей?",
+      "answer": "Бар «Гадкий койот»",
       "accepted_answers": [
-        "The Great Gatsby"
+        "Coyote Ugly"
       ],
-      "host_note": "Ответ по набору культурных признаков.",
+      "host_note": "На экране силуэты барной стойки и сапог.",
       "media_type": "emoji",
-      "media_text": "🥂 🎩 🟢 🌊",
+      "media_text": "🍹 👢 🎤 🕺",
       "media_asset": null,
       "media_source": null,
       "fact_source": null,
       "origin": "новый",
       "special": null,
-      "timer_seconds": 30,
+      "timer_seconds": 20,
       "status": "ready"
     },
     {
@@ -1160,35 +725,11 @@ window.BARLEMICA_GAME = {
       "status": "ready"
     },
     {
-      "id": "R2-BOOM-4",
-      "round": 2,
-      "category_id": "BOOM",
-      "category": "Мультики для бумеров",
-      "position": 4,
-      "points": 800,
-      "question": "Кто возвращает Ёжику потерянный узелок в мультфильме «Ёжик в тумане»?",
-      "answer": "Собака",
-      "accepted_answers": [
-        "пёс",
-        "собака"
-      ],
-      "host_note": "Вместо неточного перечисления встречных животных.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": "https://slovarn.magtu.ru/index.php?Itemid=538&catid=10&id=40&option=com_content&view=article",
-      "origin": "исходник уточнён",
-      "special": null,
-      "timer_seconds": 30,
-      "status": "ready"
-    },
-    {
       "id": "R2-BOOM-5",
       "round": 2,
       "category_id": "BOOM",
       "category": "Мультики для бумеров",
-      "position": 5,
+      "position": 4,
       "points": 1000,
       "question": "Назовите всех пятерых участников Неистовой пятёрки из «Кунг-фу Панды».",
       "answer": "Тигрица, Обезьяна, Богомол, Журавль, Гадюка",
@@ -1303,384 +844,6 @@ window.BARLEMICA_GAME = {
       "status": "ready"
     },
     {
-      "id": "R2-ZOOM-5",
-      "round": 2,
-      "category_id": "ZOOM",
-      "category": "Мультики для зумеров",
-      "position": 5,
-      "points": 1000,
-      "question": "В «Удивительном цифровом цирке» героиня Помни одета в костюм какого персонажа?",
-      "answer": "Шута",
-      "accepted_answers": [
-        "клоуна",
-        "арлекина",
-        "джестера"
-      ],
-      "host_note": "Костюм шута; не путать с именем персонажа.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 30,
-      "status": "ready"
-    },
-    {
-      "id": "R2-ANIME-1",
-      "round": 2,
-      "category_id": "ANIME",
-      "category": "Аниме",
-      "position": 1,
-      "points": 200,
-      "question": "Какой фрукт особенно любит синигами Рюк из «Тетради смерти»?",
-      "answer": "Яблоки",
-      "accepted_answers": [
-        "яблоко"
-      ],
-      "host_note": "Идеальный вопрос с яблоком на экране.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
-      "id": "R2-ANIME-2",
-      "round": 2,
-      "category_id": "ANIME",
-      "category": "Аниме",
-      "position": 2,
-      "points": 400,
-      "question": "Какую лапшу чаще всего ест Наруто в «Ичираку»?",
-      "answer": "Рамен",
-      "accepted_answers": [
-        "рамэн",
-        "ramen"
-      ],
-      "host_note": "Название блюда, не название заведения.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
-      "id": "R2-ANIME-3",
-      "round": 2,
-      "category_id": "ANIME",
-      "category": "Аниме",
-      "position": 3,
-      "points": 600,
-      "question": "Что держит во рту Нэдзуко в «Истребителе демонов»?",
-      "answer": "Бамбуковую палочку",
-      "accepted_answers": [
-        "бамбук",
-        "бамбуковый кляп"
-      ],
-      "host_note": "Персонаж узнаваем по детали.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
-      "id": "R2-ANIME-4",
-      "round": 2,
-      "category_id": "ANIME",
-      "category": "Аниме",
-      "position": 4,
-      "points": 800,
-      "question": "Какую цель постоянно повторяет Луффи в One Piece?",
-      "answer": "Стать королём пиратов",
-      "accepted_answers": [
-        "король пиратов"
-      ],
-      "host_note": "Засчитываем близкую формулировку.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 30,
-      "status": "ready"
-    },
-    {
-      "id": "R2-ANIME-5",
-      "round": 2,
-      "category_id": "ANIME",
-      "category": "Аниме",
-      "position": 5,
-      "points": 1000,
-      "question": "В каком мультфильме студии Ghibli девочка Тихиро устраивается работать в купальню для духов?",
-      "answer": "Унесённые призраками",
-      "accepted_answers": [
-        "Spirited Away"
-      ],
-      "host_note": "Культовая работа Миядзаки.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 30,
-      "status": "ready"
-    },
-    {
-      "id": "R2-HOLIDAY-1",
-      "round": 2,
-      "category_id": "HOLIDAY",
-      "category": "Праздники",
-      "position": 1,
-      "points": 200,
-      "question": "Какого числа отмечают Всемирный день бармена в календаре WSET?",
-      "answer": "24 февраля",
-      "accepted_answers": [
-        "24.02",
-        "24 февраля"
-      ],
-      "host_note": "Не смешивать с русскоязычной датой 6 февраля.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": "https://www.wsetglobal.com/news-insights/insight-opinion/the-drinks-calendar/",
-      "origin": "исходник уточнён",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
-      "id": "R2-HOLIDAY-2",
-      "round": 2,
-      "category_id": "HOLIDAY",
-      "category": "Праздники",
-      "position": 2,
-      "points": 400,
-      "question": "Какого числа отмечается Международный день кофе по версии International Coffee Organization?",
-      "answer": "1 октября",
-      "accepted_answers": [
-        "01.10",
-        "1 октября"
-      ],
-      "host_note": "Официальная дата ICO.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": "https://ico.org/international-coffee-day/",
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
-      "id": "R2-HOLIDAY-3",
-      "round": 2,
-      "category_id": "HOLIDAY",
-      "category": "Праздники",
-      "position": 3,
-      "points": 600,
-      "question": "Какой профессиональный праздник отмечают 13 мая?",
-      "answer": "Всемирный день коктейля",
-      "accepted_answers": [
-        "день коктейля",
-        "World Cocktail Day"
-      ],
-      "host_note": "Принимаем только праздник, без точного названия.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
-      "id": "R2-HOLIDAY-4",
-      "round": 2,
-      "category_id": "HOLIDAY",
-      "category": "Праздники",
-      "position": 4,
-      "points": 800,
-      "question": "Какой напиток чествуют 21 мая, в Международный день, установленный ООН?",
-      "answer": "Чай",
-      "accepted_answers": [
-        "международный день чая"
-      ],
-      "host_note": "Не кофе — он осенью.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 30,
-      "status": "ready"
-    },
-    {
-      "id": "R2-HOLIDAY-5",
-      "round": 2,
-      "category_id": "HOLIDAY",
-      "category": "Праздники",
-      "position": 5,
-      "points": 1000,
-      "question": "16 октября — Всемирный день чего: еды, музыки или фотографии?",
-      "answer": "Продовольствия",
-      "accepted_answers": [
-        "всемирный день продовольствия",
-        "еды"
-      ],
-      "host_note": "Официальное название FAO — World Food Day.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 30,
-      "status": "ready"
-    },
-    {
-      "id": "R3-SIX-1",
-      "round": 3,
-      "category_id": "SIX",
-      "category": "Сикс севен",
-      "position": 1,
-      "points": 300,
-      "question": "Как записать 67 римскими цифрами?",
-      "answer": "LXVII",
-      "accepted_answers": [
-        "L X V I I",
-        "LXVII"
-      ],
-      "host_note": "Категория намеренно абсурдна: от мема к эрудиции.",
-      "media_type": "emoji",
-      "media_text": "6️⃣ 7️⃣ 🏛️",
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
-      "id": "R3-SIX-2",
-      "round": 3,
-      "category_id": "SIX",
-      "category": "Сикс севен",
-      "position": 2,
-      "points": 600,
-      "question": "Брат мужа — это кто для жены?",
-      "answer": "Деверь",
-      "accepted_answers": [
-        "деверь"
-      ],
-      "host_note": "Один из исходных вопросов Виталия.",
-      "media_type": "emoji",
-      "media_text": "👰 🤵 👬",
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "исходник",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
-      "id": "R3-SIX-3",
-      "round": 3,
-      "category_id": "SIX",
-      "category": "Сикс севен",
-      "position": 3,
-      "points": 900,
-      "question": "Какой российский регион обозначается автомобильным кодом 67?",
-      "answer": "Смоленская область",
-      "accepted_answers": [
-        "Смоленск",
-        "Смоленская"
-      ],
-      "host_note": "Можно показать номер машины с крупным 67.",
-      "media_type": "emoji",
-      "media_text": "🚗 6️⃣7️⃣",
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "исходник",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
-      "id": "R3-SIX-4",
-      "round": 3,
-      "category_id": "SIX",
-      "category": "Сикс севен",
-      "position": 4,
-      "points": 1200,
-      "question": "Просклоняйте слово «дно»: во множественном числе родительного падежа — нет чего?",
-      "answer": "Доньев",
-      "accepted_answers": [
-        "доньев"
-      ],
-      "host_note": "Не «днов».",
-      "media_type": "emoji",
-      "media_text": "🪣 🪣 ❓",
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "исходник",
-      "special": null,
-      "timer_seconds": 30,
-      "status": "ready"
-    },
-    {
-      "id": "R3-SIX-5",
-      "round": 3,
-      "category_id": "SIX",
-      "category": "Сикс севен",
-      "position": 5,
-      "points": 1500,
-      "question": "Вирусную фразу six-seven массово распространили видео баскетбола. Назовите рэпера, в чьём треке Doot Doot (6 7) она звучала.",
-      "answer": "Skrilla",
-      "accepted_answers": [
-        "Скрилла"
-      ],
-      "host_note": "АУКЦИОН №2 — финальный.",
-      "media_type": "emoji",
-      "media_text": "🏀 6️⃣7️⃣ 🎤",
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": "https://www.kommersant.ru/doc/8905623",
-      "origin": "новый",
-      "special": "auction",
-      "timer_seconds": 30,
-      "status": "ready"
-    },
-    {
       "id": "R3-TRANS-1",
       "round": 3,
       "category_id": "TRANS",
@@ -1727,34 +890,11 @@ window.BARLEMICA_GAME = {
       "status": "ready"
     },
     {
-      "id": "R3-TRANS-3",
-      "round": 3,
-      "category_id": "TRANS",
-      "category": "Переводчик вышел покурить",
-      "position": 3,
-      "points": 900,
-      "question": "Какой коктейль в дословном переводе зовётся «Последнее слово»?",
-      "answer": "Last Word",
-      "accepted_answers": [
-        "Ласт ворд"
-      ],
-      "host_note": "Не путать с Last Call.",
-      "media_type": "emoji",
-      "media_text": "🔚 💬 🍸",
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
       "id": "R3-TRANS-4",
       "round": 3,
       "category_id": "TRANS",
       "category": "Переводчик вышел покурить",
-      "position": 4,
+      "position": 3,
       "points": 1200,
       "question": "Как называется коктейль, чьё английское имя буквально означает «Оживитель трупов»?",
       "answer": "Corpse Reviver",
@@ -1778,7 +918,7 @@ window.BARLEMICA_GAME = {
       "round": 3,
       "category_id": "TRANS",
       "category": "Переводчик вышел покурить",
-      "position": 5,
+      "position": 4,
       "points": 1500,
       "question": "Какой коктейль скрывается за буквальным переводом «Между простынями»?",
       "answer": "Between the Sheets",
@@ -1845,35 +985,11 @@ window.BARLEMICA_GAME = {
       "status": "ready"
     },
     {
-      "id": "R3-MYTH-3",
-      "round": 3,
-      "category_id": "MYTH",
-      "category": "Правда или барная байка",
-      "position": 3,
-      "points": 900,
-      "question": "Гавайскую пиццу впервые приготовили не на Гавайях. Правда или миф?",
-      "answer": "Правда",
-      "accepted_answers": [
-        "да",
-        "истина"
-      ],
-      "host_note": "Её создали в Канаде.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
       "id": "R3-MYTH-4",
       "round": 3,
       "category_id": "MYTH",
       "category": "Правда или барная байка",
-      "position": 4,
+      "position": 3,
       "points": 1200,
       "question": "Виноградное сусло может быть белым даже при переработке тёмного винограда. Правда или миф?",
       "answer": "Правда",
@@ -1897,7 +1013,7 @@ window.BARLEMICA_GAME = {
       "round": 3,
       "category_id": "MYTH",
       "category": "Правда или барная байка",
-      "position": 5,
+      "position": 4,
       "points": 1500,
       "question": "Белый шоколад обязан содержать какао-порошок, иначе это не шоколад. Правда или миф?",
       "answer": "Миф",
@@ -1917,20 +1033,20 @@ window.BARLEMICA_GAME = {
       "status": "ready"
     },
     {
-      "id": "R3-DETECT-1",
+      "id": "R2-ANIME-1",
       "round": 3,
-      "category_id": "DETECT",
-      "category": "Барная криминалистика",
+      "category_id": "ANIME",
+      "category": "Аниме",
       "position": 1,
-      "points": 300,
-      "question": "В бокале 4 кубика льда. Два полностью растаяли. Сколько целых кубиков осталось?",
-      "answer": "Два",
+      "points": 200,
+      "question": "Какой фрукт особенно любит синигами Рюк из «Тетради смерти»?",
+      "answer": "Яблоки",
       "accepted_answers": [
-        "2"
+        "яблоко"
       ],
-      "host_note": "Разминка-подловка.",
-      "media_type": "emoji",
-      "media_text": "🧊 🧊 🧊 🧊 → 💧 💧",
+      "host_note": "Идеальный вопрос с яблоком на экране.",
+      "media_type": "none",
+      "media_text": null,
       "media_asset": null,
       "media_source": null,
       "fact_source": null,
@@ -1940,21 +1056,21 @@ window.BARLEMICA_GAME = {
       "status": "ready"
     },
     {
-      "id": "R3-DETECT-2",
+      "id": "R2-ANIME-3",
       "round": 3,
-      "category_id": "DETECT",
-      "category": "Барная криминалистика",
+      "category_id": "ANIME",
+      "category": "Аниме",
       "position": 2,
       "points": 600,
-      "question": "Бармен налил 45 мл джина, 25 мл лимона и 20 мл сиропа. Сколько миллилитров в шейкере до льда?",
-      "answer": "90 мл",
+      "question": "Что держит во рту Нэдзуко в «Истребителе демонов»?",
+      "answer": "Бамбуковую палочку",
       "accepted_answers": [
-        "90",
-        "90 миллилитров"
+        "бамбук",
+        "бамбуковый кляп"
       ],
-      "host_note": "45 + 25 + 20 = 90.",
-      "media_type": "emoji",
-      "media_text": "45 + 25 + 20 = ?",
+      "host_note": "Персонаж узнаваем по детали.",
+      "media_type": "none",
+      "media_text": null,
       "media_asset": null,
       "media_source": null,
       "fact_source": null,
@@ -1964,189 +1080,43 @@ window.BARLEMICA_GAME = {
       "status": "ready"
     },
     {
-      "id": "R3-DETECT-3",
+      "id": "R2-ANIME-4",
       "round": 3,
-      "category_id": "DETECT",
-      "category": "Барная криминалистика",
+      "category_id": "ANIME",
+      "category": "Аниме",
       "position": 3,
-      "points": 900,
-      "question": "Для сиропа 1:1 по МАССЕ взяли 600 г общей смеси. Сколько в ней сахара?",
-      "answer": "300 г",
+      "points": 800,
+      "question": "Какую цель постоянно повторяет Луффи в One Piece?",
+      "answer": "Стать королём пиратов",
       "accepted_answers": [
-        "300",
-        "300 граммов"
+        "король пиратов"
       ],
-      "host_note": "Сахар и вода по 300 г.",
-      "media_type": "emoji",
-      "media_text": "🍬 + 💧 = 600 г",
+      "host_note": "Засчитываем близкую формулировку.",
+      "media_type": "none",
+      "media_text": null,
       "media_asset": null,
       "media_source": null,
       "fact_source": null,
       "origin": "новый",
       "special": null,
-      "timer_seconds": 20,
+      "timer_seconds": 30,
       "status": "ready"
     },
     {
-      "id": "R3-DETECT-4",
+      "id": "R2-ANIME-5",
       "round": 3,
-      "category_id": "DETECT",
-      "category": "Барная криминалистика",
+      "category_id": "ANIME",
+      "category": "Аниме",
       "position": 4,
-      "points": 1200,
-      "question": "В кассе 12 000 ₽ за коктейли. Их себестоимость — 25% от выручки. Назовите себестоимость в рублях.",
-      "answer": "3 000 ₽",
+      "points": 1000,
+      "question": "В каком мультфильме студии Ghibli девочка Тихиро устраивается работать в купальню для духов?",
+      "answer": "Унесённые призраками",
       "accepted_answers": [
-        "3000",
-        "3 тысячи рублей"
+        "Spirited Away"
       ],
-      "host_note": "0,25 × 12 000 = 3 000.",
-      "media_type": "emoji",
-      "media_text": "12 000 ₽ × 25% = ?",
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 30,
-      "status": "ready"
-    },
-    {
-      "id": "R3-DETECT-5",
-      "round": 3,
-      "category_id": "DETECT",
-      "category": "Барная криминалистика",
-      "position": 5,
-      "points": 1500,
-      "question": "Из бутылки 750 мл разлили три бокала по 120 мл. Сколько миллилитров осталось?",
-      "answer": "390 мл",
-      "accepted_answers": [
-        "390",
-        "390 миллилитров"
-      ],
-      "host_note": "750 − 3×120 = 390.",
-      "media_type": "emoji",
-      "media_text": "🍾 750 − 3×120 = ?",
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 30,
-      "status": "ready"
-    },
-    {
-      "id": "R3-AI-1",
-      "round": 3,
-      "category_id": "AI",
-      "category": "ИИ или ой?",
-      "position": 1,
-      "points": 300,
-      "question": "Сгенерированная нейросетью красивая фотография ягоды доказывает, что реальная партия свежая?",
-      "answer": "Нет",
-      "accepted_answers": [
-        "не доказывает",
-        "ложь"
-      ],
-      "host_note": "Разница между синтезированным изображением и доказательством качества.",
-      "media_type": "emoji",
-      "media_text": "🤖 🫐 📸 ❓",
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
-      "id": "R3-AI-2",
-      "round": 3,
-      "category_id": "AI",
-      "category": "ИИ или ой?",
-      "position": 2,
-      "points": 600,
-      "question": "Как называется ситуация, когда ИИ уверенно выдаёт выдуманный факт за настоящий?",
-      "answer": "Галлюцинация ИИ",
-      "accepted_answers": [
-        "галлюцинация",
-        "hallucination"
-      ],
-      "host_note": "Важно не путать с обычной опечаткой.",
-      "media_type": "emoji",
-      "media_text": "🤖 💬 🦄",
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
-      "id": "R3-AI-3",
-      "round": 3,
-      "category_id": "AI",
-      "category": "ИИ или ой?",
-      "position": 3,
-      "points": 900,
-      "question": "Дали рецепт коктейля, но не дали закупочные цены. Может ли ИИ точно посчитать его себестоимость?",
-      "answer": "Нет",
-      "accepted_answers": [
-        "не может"
-      ],
-      "host_note": "Нужны реальные цены закупки и выходы ингредиентов.",
-      "media_type": "emoji",
-      "media_text": "🍹 ➕ 📉 ❓",
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 20,
-      "status": "ready"
-    },
-    {
-      "id": "R3-AI-4",
-      "round": 3,
-      "category_id": "AI",
-      "category": "ИИ или ой?",
-      "position": 4,
-      "points": 1200,
-      "question": "Нейросеть распознала чек с фотографии. Что обязательно нужно сделать перед бухгалтерской загрузкой?",
-      "answer": "Сверить распознанные данные с оригиналом",
-      "accepted_answers": [
-        "проверить",
-        "перепроверить чек",
-        "сверка с чеком"
-      ],
-      "host_note": "Человек контролирует даты, суммы, позиции и НДС.",
-      "media_type": "emoji",
-      "media_text": "📷 🧾 🤖 ✅",
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 30,
-      "status": "ready"
-    },
-    {
-      "id": "R3-AI-5",
-      "round": 3,
-      "category_id": "AI",
-      "category": "ИИ или ой?",
-      "position": 5,
-      "points": 1500,
-      "question": "Две версии совета: «ИИ уверен на 99%» и «факт подтверждён первоисточником». Какой аргумент надёжнее?",
-      "answer": "Подтверждение первоисточником",
-      "accepted_answers": [
-        "первоисточник",
-        "источник"
-      ],
-      "host_note": "Медийная фраза на фоне темы фестиваля.",
-      "media_type": "emoji",
-      "media_text": "99% 🤖 ⚖️ 📚",
+      "host_note": "Культовая работа Миядзаки.",
+      "media_type": "none",
+      "media_text": null,
       "media_asset": null,
       "media_source": null,
       "fact_source": null,
@@ -2247,31 +1217,6 @@ window.BARLEMICA_GAME = {
       "special": null,
       "timer_seconds": 30,
       "status": "ready"
-    },
-    {
-      "id": "R3-FAKE-5",
-      "round": 3,
-      "category_id": "FAKE",
-      "category": "Фуд-фейки",
-      "position": 5,
-      "points": 1500,
-      "question": "В классической «клубнике со сливками» ягода клубники с точки зрения ботаники — настоящая ягода?",
-      "answer": "Нет",
-      "accepted_answers": [
-        "не ягода",
-        "ложная ягода",
-        "многоорешек"
-      ],
-      "host_note": "Плод земляники садовой — разросшееся цветоложе с орешками.",
-      "media_type": "none",
-      "media_text": null,
-      "media_asset": null,
-      "media_source": null,
-      "fact_source": null,
-      "origin": "новый",
-      "special": null,
-      "timer_seconds": 30,
-      "status": "ready"
     }
   ],
   "specials": {
@@ -2318,23 +1263,8 @@ window.BARLEMICA_GAME = {
       "instruction": "Весь профиль из плодов виден на 16:9 кадре"
     }
   },
-  "game_rules": {
-    "teams_min": 2,
-    "teams_max": 6,
-    "initial_score": 0,
-    "negative_scores_allowed": true,
-    "regular_correct": "full_points",
-    "regular_incorrect": "minus_full_points",
-    "steal_correct": "half_points",
-    "steal_incorrect": "minus_half_points",
-    "score_rounding": "no rounding; regular half-values use 50-point increments; auction stakes are arbitrary positive integers",
-    "bag_correct": "full_points",
-    "bag_incorrect": "minus_full_points",
-    "bag_no_steal": true,
-    "auction_correct": "plus_bid",
-    "auction_incorrect": "minus_bid",
-    "auction_no_steal": true,
-    "skip_round_3": true,
-    "tie_break": "one additional neutral tiebreak question; no score change"
+  "final": {
+    "question": "Сколько наименований позиций в портфеле компании Роял Кейн?",
+    "answer": 297
   }
 };
