@@ -168,7 +168,7 @@
       "category_id": "MIX",
       "category": "Смешай по-братски",
       "position": 4,
-      "points": 500,
+      "points": 400,
       "question": "Название какого коктейля отсылает к французской 75-миллиметровой пушке Первой мировой войны?",
       "answer": "French 75",
       "accepted_answers": [
@@ -262,7 +262,7 @@
       "category_id": "WINE",
       "category": "Молоко любимой женщины",
       "position": 4,
-      "points": 500,
+      "points": 400,
       "question": "Как называется удаление собранного дрожжевого осадка из горлышка бутылки после ремюажа?",
       "answer": "Дегоржаж",
       "accepted_answers": [
@@ -381,7 +381,7 @@
       "category_id": "EMOJI",
       "category": "Бар по эмодзи",
       "position": 1,
-      "points": 200,
+      "points": 100,
       "question": "Какой классический коктейль спрятан в ребусе?",
       "answer": "Margarita",
       "accepted_answers": [
@@ -404,7 +404,7 @@
       "category_id": "EMOJI",
       "category": "Бар по эмодзи",
       "position": 2,
-      "points": 300,
+      "points": 200,
       "question": "Какой коктейль зашифрован?",
       "answer": "Espresso Martini",
       "accepted_answers": [
@@ -427,7 +427,7 @@
       "category_id": "EMOJI",
       "category": "Бар по эмодзи",
       "position": 3,
-      "points": 400,
+      "points": 300,
       "question": "Какой коктейль спрятан в этом наборе?",
       "answer": "Old Fashioned",
       "accepted_answers": [
@@ -451,7 +451,7 @@
       "category_id": "EMOJI",
       "category": "Бар по эмодзи",
       "position": 4,
-      "points": 500,
+      "points": 400,
       "question": "Расшифруйте название тики-коктейля по ребусу.",
       "answer": "Zombie",
       "accepted_answers": [
@@ -521,7 +521,7 @@
       "category_id": "SPIRIT",
       "category": "C₂H₅OH",
       "position": 3,
-      "points": 800,
+      "points": 600,
       "question": "Что означает ABV на этикетке алкогольного напитка?",
       "answer": "Доля алкоголя по объёму",
       "accepted_answers": [
@@ -545,7 +545,7 @@
       "category_id": "SPIRIT",
       "category": "C₂H₅OH",
       "position": 4,
-      "points": 1000,
+      "points": 800,
       "question": "Из какого сырья делают писко: из агавы, зерна или винограда?",
       "answer": "Из винограда",
       "accepted_answers": [
@@ -568,7 +568,7 @@
       "category_id": "MOVIE",
       "category": "Смешай по-братски",
       "position": 1,
-      "points": 1000,
+      "points": 200,
       "question": "Загадка кино: вечеринки на Лонг-Айленде, башня бокалов и зелёный огонёк через залив. Фильм?",
       "answer": "Великий Гэтсби",
       "accepted_answers": [
@@ -614,7 +614,7 @@
       "category_id": "MOVIE",
       "category": "Смешай по-братски",
       "position": 3,
-      "points": 800,
+      "points": 600,
       "question": "В каком фильме Джеймс Бонд заказывает вариацию Martini «Веспер»?",
       "answer": "Казино «Рояль»",
       "accepted_answers": [
@@ -638,7 +638,7 @@
       "category_id": "MOVIE",
       "category": "Смешай по-братски",
       "position": 4,
-      "points": 600,
+      "points": 800,
       "question": "В каком фильме девушки превращают барную стойку в танцпол, а новая сотрудница мечтает стать певицей?",
       "answer": "Бар «Гадкий койот»",
       "accepted_answers": [
@@ -730,7 +730,7 @@
       "category_id": "BOOM",
       "category": "Мультики для бумеров",
       "position": 4,
-      "points": 1000,
+      "points": 800,
       "question": "Назовите всех пятерых участников Неистовой пятёрки из «Кунг-фу Панды».",
       "answer": "Тигрица, Обезьяна, Богомол, Журавль, Гадюка",
       "accepted_answers": [
@@ -895,7 +895,7 @@
       "category_id": "TRANS",
       "category": "Переводчик вышел покурить",
       "position": 3,
-      "points": 1200,
+      "points": 900,
       "question": "Как называется коктейль, чьё английское имя буквально означает «Оживитель трупов»?",
       "answer": "Corpse Reviver",
       "accepted_answers": [
@@ -919,7 +919,7 @@
       "category_id": "TRANS",
       "category": "Переводчик вышел покурить",
       "position": 4,
-      "points": 1500,
+      "points": 1200,
       "question": "Какой коктейль скрывается за буквальным переводом «Между простынями»?",
       "answer": "Between the Sheets",
       "accepted_answers": [
@@ -990,7 +990,7 @@
       "category_id": "MYTH",
       "category": "Правда или барная байка",
       "position": 3,
-      "points": 1200,
+      "points": 900,
       "question": "Виноградное сусло может быть белым даже при переработке тёмного винограда. Правда или миф?",
       "answer": "Правда",
       "accepted_answers": [
@@ -1014,7 +1014,7 @@
       "category_id": "MYTH",
       "category": "Правда или барная байка",
       "position": 4,
-      "points": 1500,
+      "points": 1200,
       "question": "Белый шоколад обязан содержать какао-порошок, иначе это не шоколад. Правда или миф?",
       "answer": "Миф",
       "accepted_answers": [
@@ -1038,7 +1038,7 @@
       "category_id": "ANIME",
       "category": "Аниме",
       "position": 1,
-      "points": 200,
+      "points": 300,
       "question": "Какой фрукт особенно любит синигами Рюк из «Тетради смерти»?",
       "answer": "Яблоки",
       "accepted_answers": [
@@ -1085,7 +1085,7 @@
       "category_id": "ANIME",
       "category": "Аниме",
       "position": 3,
-      "points": 800,
+      "points": 900,
       "question": "Какую цель постоянно повторяет Луффи в One Piece?",
       "answer": "Стать королём пиратов",
       "accepted_answers": [
@@ -1108,7 +1108,7 @@
       "category_id": "ANIME",
       "category": "Аниме",
       "position": 4,
-      "points": 1000,
+      "points": 1200,
       "question": "В каком мультфильме студии Ghibli девочка Тихиро устраивается работать в купальню для духов?",
       "answer": "Унесённые призраками",
       "accepted_answers": [
